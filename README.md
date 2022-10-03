@@ -4,8 +4,8 @@ This web app predicts the score of a team by providing following inputs (batting
 
 The web app was built in Python using the following libraries:
 
-streamlit
-pandas
-numpy
-scikit-learn
-pickle
+* streamlit
+* pandas
+* numpy
+* scikit-learn
+* pickle

@@ -1,11 +1,29 @@
-# Score-Prediction
+# Cricket Score Prediction
+## This project uses python, XGBRegressor, and streamlit to predict cricket scores with an accuracy of 99%.
 
-This web app predicts the score of a team by providing following inputs (batting team, bowling team, current score, overs, wickets, last 5 overs runs).
+Installation
+Clone the repository:
 
-The web app was built in Python using the following libraries:
+git clone https://github.com/kishwarpanchanathan/Score_Prediction.git
 
-* streamlit
-* pandas
-* numpy
-* scikit-learn
-* pickle
+Install the required libraries using pip:
+
+
+pip install -r requirements.txt
+Run the app:
+
+streamlit run app.py
+
+Libraries Used
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Sklearn
+
+Model
+The model used in this project is XGBRegressor.
+XGBRegressor is a gradient boosting tree model that is used for regression tasks. It works by building an ensemble of decision trees, where each tree is trained to correct the errors made by the previous trees. This process is repeated until a satisfactory level of accuracy is reached on the training data.
+
+Accuracy
+The model has an accuracy of 99%.
